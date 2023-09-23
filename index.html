@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+   
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>
+                Página de criação de Formulários - Form_01
+            </h1>
+            
+
+            
+
+
+        </div>
+   
+            
+
+    </header>
+    <!-- Primeiro formulario utilizando Label e Input -->
+
+    <form class="container-grid form01">
+        <label for="Primeiro Nome">Nome</label>
+        <input type="text" name="Nome01" id="" placeholder="Digite o seu Nome">
+        <label for="Sobrenome">Sobrenome</label>
+        <input type="text" name="Nome02" id="" placeholder="Digite seu Sobrenome">
+    </form>
+
+    <!-- Formulário para realizar o cadastro de uma pessoa -->
+
+    <div class="titulo">
+        <h1>
+            Página de criação de Formulários - Form_02
+        </h1>
+
+    </div>
+
+    <form class="container-grid form01" target="_blank"
+    action="https://formsubmit.co/d5fba044fc2f654af589c67e0d33550d" method="POST">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+    
+        <label for="Primeiro Nome">Nome</label>
+        <input type="text" name="Nome" id="" placeholder="Digite o seu Nome..." required>
+        <label for="Sobrenome">Sobrenome</label>
+        <input type="text" name="Sobrenome" id="" placeholder="Digite seu Sobrenome..." required>
+
+        <label for="email">E mail</label>
+        <input type="email" name="E mail" id="" placeholder="Digite seu E mail..." required>
+        <label for="Idade">Data de Nascimento</label>
+        <input type="date" name="Data de Nascimento" id="" required>
+
+
+
+        <label for="Celular">Celular</label>
+        <input type="tel" name="Telefone" id="" placeholder="Digite seu Número de Celular" required>
+        <label for="Endereço">Endereço</label>
+        <input type="text" name="Endereço" id="" placeholder="Digite o seu endereço" required>
+        <label for="comentario">Comentário</label>
+        <textarea name="comentário" id="" cols="30" rows="10" placeholder="Descreva sobre você..."></textarea>
+        <div class="genero">
+            <label for="genero">Qual o seu Gênero</label>
+            <input type="radio" name="genero" id="">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="genero" id="">
+            <label for="Feminino">Feminino</label>
+        </div>
+
+        <button onclick="confirmcad()" id="button" type="submit">Cadastre-se</button>
+     
+
+    </form>
+
+
+
+</body>
+
+</html>

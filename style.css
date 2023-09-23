@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: #026451;
+    margin-top: 10px;
+
+}
+
+.titulo>h1 {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900px;
+
+    
+}
+
+/* Estilizar Formulário */
+
+.form01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 20px;
+    width: 50%;
+}
+
+.genero{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+    
+
+}
+.form01 label{
+    padding: 10px;
+
+}
+.form01 input{
+    padding: 10px;
+
+}
+
+.form01 button{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #026451;
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: 900px;
+    
+
+}
