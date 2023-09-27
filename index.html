@@ -34,7 +34,21 @@
         <label for="Sobrenome">Sobrenome</label>
         <input type="text" name="Nome02" id="" placeholder="Digite seu Sobrenome">
     </form> -->
+<script>
+    function validaVazio() {
+        // Valida o campo Nome
+        if (document.teste.nome.value == "") {
+         window.alert("Campo Requerido");
+         document.teste.nome.focus();
+         return false;
+        } else {
+         window.alert("Dados envidao com sucesso");
+         return true;
+        }
+      
+        }
 
+    </script>
     <form action="#" name="teste" method="get" onsubmit="return validaVazio() ">
         Nome: <input type="text" name="nome" maxlength="50"><br>
           <input type="submit" name="submit" value="inserir">
