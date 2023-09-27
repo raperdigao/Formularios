@@ -28,12 +28,17 @@
     </header>
     <!-- Primeiro formulario utilizando Label e Input -->
 
-    <form class="container-grid form01">
+    <!-- <form class="container-grid form01">
         <label for="Primeiro Nome">Nome</label>
         <input type="text" name="Nome01" id="" placeholder="Digite o seu Nome">
         <label for="Sobrenome">Sobrenome</label>
         <input type="text" name="Nome02" id="" placeholder="Digite seu Sobrenome">
-    </form>
+    </form> -->
+
+    <form action="#" name="teste" method="get" onsubmit="return validaVazio() ">
+        Nome: <input type="text" name="nome" maxlength="50"><br>
+          <input type="submit" name="submit" value="inserir">
+        </form>
 
     <!-- Formulário para realizar o cadastro de uma pessoa -->
 
@@ -46,7 +51,7 @@
 
     <form class="container-grid form01" target="_blank"
     action="https://formsubmit.co/d5fba044fc2f654af589c67e0d33550d" method="POST">
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+    <input type="hidden" name="_next" value="https://raperdigao.github.io/Formularios/">
     
         <label for="Primeiro Nome">Nome</label>
         <input type="text" name="Nome" id="" placeholder="Digite o seu Nome..." required>
