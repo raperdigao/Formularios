@@ -24,6 +24,16 @@ html {
 
 }
 
+.formvalid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formvalid input{
+    display: flex;
+}
+
 .titulo>h1 {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
