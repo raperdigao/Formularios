@@ -18,7 +18,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 10vh;
     background-color: #026451;
     margin-top: 10px;
 
@@ -28,12 +28,19 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    height: 120px;
+
 }
 
 .formvalid input{
     display: flex;
+    margin-left: 6px;
 }
 
+.submit{
+    margin-left: 6px;
+}
 .titulo>h1 {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
